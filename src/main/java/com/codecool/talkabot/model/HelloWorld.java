@@ -18,4 +18,12 @@ public class HelloWorld {
     public HelloWorld(String message) {
         this.message = message;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getMessage() {
+        return message;
+    }
 }
