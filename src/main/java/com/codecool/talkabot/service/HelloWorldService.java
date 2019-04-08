@@ -14,7 +14,6 @@ public class HelloWorldService {
     private HelloWorldRepo helloWorldRepo;
 
     public List<HelloWorld> getHelloWorld() {
-        System.out.println(helloWorldRepo.findAll().get(0).getMessage());
         return helloWorldRepo.findAll();
     }
 }
